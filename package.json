@@ -20,7 +20,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.26.0",
     "bignumber.js": "^8.0.1",
-    "bitcoinjs-lib": "^4.0.2",
+    "acmjs-lib": "https://github.com/Actinium-project/acmjs-lib.git",
     "bolt11": "https://github.com/bitcoinjs/bolt11",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",

@@ -17,10 +17,10 @@ cd LndHub
 npm i
 ```
 
-Install `bitcoind`, `lnd` and `redis`. Edit `config.js` and set it up correctly.
+Install `Actiniumd`, `lnd` and `redis`. Edit `config.js` and set it up correctly.
 Copy `admin.macaroon` and `tls.cert` in root folder of LndHub.
 
-`bitcoind` should run with `-deprecatedrpc=accounts`, for now. Lndhub expects Lnd's wallet to be unlocked, if not - it will attempt to unlock it with password stored in `config.lnd.password`.
+`Actiniumd` should run with `-deprecatedrpc=accounts`, for now. Lndhub expects Lnd's wallet to be unlocked, if not - it will attempt to unlock it with password stored in `config.lnd.password`.
 Don't forget to enable disk-persistance for `redis`.
 
 
