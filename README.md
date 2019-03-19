@@ -12,8 +12,8 @@ You can use those guides or follow instructions below:
 * https://medium.com/@jpthor/running-lndhub-on-mac-osx-5be6671b2e0c
 
 ```
-git clone git@github.com:BlueWallet/LndHub.git
-cd LndHub
+git clone git@github.com:Actinium-Project/AcmLndHub.git
+cd AcmLndHub
 npm i
 ```
 
@@ -34,13 +34,6 @@ Add config vars :
 
 ### Tests
 
-Acceptance tests are in https://github.com/BlueWallet/BlueWallet/blob/master/LightningCustodianWallet.test.js
+Acceptance tests are in https://github.com/Actinium-project/AcmLightningWallet/blob/master/LightningCustodianWallet.test.js
 
 ![image](https://user-images.githubusercontent.com/1913337/52418916-f30beb00-2ae6-11e9-9d63-17189dc1ae8c.png)
-
-
-
-## Responsible disclosure
-
-Found critical bugs/vulnerabilities? Please email them bluewallet@bluewallet.io
-Thanks!
