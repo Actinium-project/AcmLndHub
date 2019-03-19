@@ -21,3 +21,6 @@ yarn-error.log*
 # OSX# OSX
 #
 .DS_Store
+
+# only show default config.js
+config.js
