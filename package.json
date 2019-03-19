@@ -1,6 +1,6 @@
 {
-  "name": "LndHub",
-  "version": "1.1.1",
+  "name": "acm-lnd-hub",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "start": "node_modules/.bin/babel-node index.js",
     "lint": "./node_modules/.bin/eslint ./ controllers/ class/ --fix"
   },
-  "author": "Igor Korsakov <overtorment@gmail.com>",
+  "author": "Harris Brakmic <brakmic@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel": "^6.23.0",
@@ -21,7 +21,7 @@
     "babel-register": "^6.26.0",
     "bignumber.js": "^8.0.1",
     "acmjs-lib": "https://github.com/Actinium-project/acmjs-lib.git",
-    "bolt11": "https://github.com/bitcoinjs/bolt11",
+    "bolt11": "https://github.com/Actinium-project/bolt11.git",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0",
